@@ -1,172 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ISRO Missions</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-      scroll-behavior: smooth;
-    }
-    body {
-      background-color: #0a0a1a;
-      color: #f2f2f2;
-    }
-    header {
-      background: linear-gradient(90deg, #0b3d91, #1e90ff);
-      text-align: center;
-      padding: 15px;
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: white;
-      letter-spacing: 1px;
-    }
-    nav {
-      background-color: #111;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-size: 1rem;
-      transition: color 0.3s ease;
-    }
-    nav a:hover {
-      color: #1e90ff;
-    }
-    section {
-      padding: 40px 10%;
-    }
-    .section-title {
-      text-align: center;
-      color: #00bfff;
-      font-size: 1.8rem;
-      margin-bottom: 25px;
-      text-transform: uppercase;
-    }
-    p {
-      text-align: justify;
-      line-height: 1.7;
-      font-size: 1rem;
-      color: #e6e6e6;
-      margin-bottom: 15px;
-    }
-    .missions {
-      background-color: #12122b;
-      border-radius: 10px;
-      padding: 25px;
-      box-shadow: 0 0 15px rgba(0,191,255,0.1);
-    }
-    .mission-item {
-      margin-bottom: 18px;
-      padding: 15px;
-      border-left: 4px solid #00bfff;
-      background: #1b1b38;
-      border-radius: 6px;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .mission-item:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 0 10px rgba(0,191,255,0.3);
-    }
-    .mission-item h3 {
-      color: #1e90ff;
-      margin-bottom: 6px;
-      font-size: 1.1rem;
-    }
-    .mission-item p {
-      margin: 0;
-      font-size: 0.95rem;
-      color: #dcdcdc;
-    }
-    footer {
-      background-color: #0b3d91;
-      text-align: center;
-      padding: 15px;
-      color: white;
-      font-size: 0.9rem;
-    }
-    footer a {
-      color: #00bfff;
-      text-decoration: none;
-    }
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission on Mars</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #0a0a0a;
+    background: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+  header {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  header img {
+    height: 55px;
+    border-radius: 50%;
+  }
+
+  header h1 {
+    color: #06224d;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 80px 15%;
+  }
+
+  .content h2 {
+    font-size: 2.5rem;
+    color: #08244e;
+    margin-bottom: 15px;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    background: rgba(255, 255, 255, 0.78);
+    color: #0d0d0d;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #0b0b0b;
+    font-size: 0.95rem;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
+  }
+</style>
 </head>
 <body>
-  <header>Indian Space Research Organisation (ISRO)</header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#missions">Missions</a>
-    <a href="#achievements">Achievements</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header>
+  <h1>ISRO -- Mission On Mars</h1>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBh0dMU-xFxW2Fd29N86K4k448mQ9ODDKI_g&s" alt="Logo">
+</header>
 
-  <section id="about">
-    <h2 class="section-title">About ISRO</h2>
-    <p>
-      🚀The Indian Space Research Organisation (ISRO) is the national space agency of India, established in 1969. 
-      Its primary goal is to harness space technology for national development while pursuing space science research and planetary exploration.
-    </p>
-    <p>
-      🚀Over the decades, ISRO has achieved global recognition for its cost-effective and innovative space missions. 
-      It continues to inspire young scientists and engineers to contribute to India's advancement in space technology.
-    </p>
-  </section>
+<div class="content">
+  <h2>Exploring the Red Planet</h2>
+  <p>
+    The Mission on Mars is one of humanity’s most ambitious space exploration projects,
+    aiming to uncover the mysteries of our neighboring planet. Through advanced robotics,
+    AI-powered data analysis, and international collaboration, this mission will study
+    the Martian terrain, search for signs of ancient life, and prepare for future
+    human settlement. Every milestone achieved brings us closer to expanding the
+    horizons of knowledge and possibility beyond Earth.
+  </p>
+</div>
 
-  <section id="missions">
-    <h2 class="section-title">Major Missions</h2>
-    <div class="missions">
-      <div class="mission-item">
-        <h3>Chandrayaan-1 (2008)</h3>
-        <p>India’s first lunar mission that confirmed the presence of water molecules on the Moon’s surface.</p>
-      </div>
-      <div class="mission-item">
-        <h3>Mangalyaan (Mars Orbiter Mission) – 2013</h3>
-        <p>Made India the first Asian nation to reach Mars orbit and the first in the world to do so in its maiden attempt.</p>
-      </div>
-      <div class="mission-item">
-        <h3>Chandrayaan-2 (2019)</h3>
-        <p>Aimed to explore the Moon’s south pole and study its topography, mineralogy, and exosphere.</p>
-      </div>
-      <div class="mission-item">
-        <h3>PSLV-C37 (2017)</h3>
-        <p>Created a world record by launching 104 satellites in a single mission using the PSLV rocket.</p>
-      </div>
-      <div class="mission-item">
-        <h3>Chandrayaan-3 (2023)</h3>
-        <p>Successfully achieved soft landing near the Moon’s south pole, making India the first nation to do so.</p>
-      </div>
-      <div class="mission-item">
-        <h3>Aditya-L1 (2023)</h3>
-        <p>India’s first solar mission to study the Sun’s corona and solar activities from the L1 orbit point.</p>
-      </div>
-    </div>
-  </section>
+<footer>
+  © 2025 Mission On Mars | Designed by VB Kalahal
+</footer>
 
-  <section id="achievements">
-    <h2 class="section-title">Achievements</h2>
-    <p>
-      ISRO has emerged as one of the leading space agencies in the world, known for its precision, affordability, and innovation. 
-      Its achievements include launching satellites for communication, navigation, weather forecasting, and remote sensing.
-    </p>
-    <p>
-      The organisation also collaborates internationally and supports other countries in launching their satellites, 
-      thus establishing India as a dependable space partner globally.
-    </p>
-  </section>
-
-  <footer id="contact">
-    <p>© 2025 ISRO Info Page | Created by <a href="#">Vijayalaxmi Basavaraj Kalahal</a></p>
-  </footer>
 </body>
 </html>
